@@ -501,19 +501,19 @@ h2.landing-info-h2 {
     max-width: 40%;
   }
 
-  /* Right-hand text: anchored from 54% left, clipped at 2% from the right edge */
+  /* Right-hand text: anchored past the 3D model's ear (~65% viewport) + padding buffer */
   .landing-info {
     bottom: auto;
     top: 51%;
     z-index: inherit;
     text-align: left;
     transform: translate(0%, -50%);
-    left: 54%;
+    left: 62%;
     right: 2%;
     max-width: none;
     width: auto;
-    /* Prevent any child from leaking out */
     overflow: visible;
+    padding-left: 24px; /* extra gap from the model's ear */
   }
 }
 
@@ -532,9 +532,10 @@ h2.landing-info-h2 {
     z-index: inherit;
     text-align: left;
     transform: translate(0%, -50%);
-    left: 58%;
+    left: 64%;
     right: 2%;
     width: auto;
+    padding-left: 20px;
   }
 }
 
@@ -542,10 +543,12 @@ h2.landing-info-h2 {
   /* clamp() already handles large screens gracefully — only override layout spacing here */
   .landing-intro {
     left: 6%;
+    max-width: 35%;
   }
 
   .landing-info {
-    left: 56%;
-    right: 2%;
+    left: 62%;
+    right: 3%;
+    padding-left: 20px;
   }
 }
