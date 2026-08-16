@@ -102,11 +102,6 @@ All personal content is centralized in one file:
 - 📧 **Email:** diwakar9345@gmail.com
 - 🌐 **Portfolio:** [portfolio-diwakar-singh.vercel.app](https://portfolio-diwakar-singh.vercel.app/)
 
----
-
-## 🏷️ GitHub Topics
-
-`portfolio` `developer-portfolio` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `vite` `fullstack` `java` `mern`
 
 ---
 
