@@ -96,11 +96,11 @@ All personal content is centralized in one file:
 
 ## 🤝 Connect with Diwakar
 
-- 🔗 **Live Preview:** [Your Vercel URL Here]
+- 🔗 **Live Preview:** [portfolio-diwakar-singh.vercel.app](https://portfolio-diwakar-singh.vercel.app/)
 - 🔗 **LinkedIn:** [linkedin.com/in/diwakarsingh07](https://www.linkedin.com/in/diwakarsingh07/)
 - 🐙 **GitHub:** [github.com/diwakar1215](https://github.com/diwakar1215)
 - 📧 **Email:** diwakar9345@gmail.com
-- 🌐 **Portfolio:** [Your Vercel URL Here]
+- 🌐 **Portfolio:** [portfolio-diwakar-singh.vercel.app](https://portfolio-diwakar-singh.vercel.app/)
 
 ---
 
