@@ -460,9 +460,7 @@ h2.landing-info-h2 {
     line-height: 40px;
   }
 
-  h2.landing-info-h2 {
-    font-size: 38px;
-  }
+  /* clamp() on h2.landing-info-h2 handles this automatically */
 }
 
 @media screen and (min-width: 768px) {
@@ -479,18 +477,7 @@ h2.landing-info-h2 {
     line-height: 35px;
   }
 
-  .landing-info h3 {
-    font-size: 25px;
-  }
-
-  .landing-info h2 {
-    font-size: 45px;
-    line-height: 42px;
-  }
-
-  h2.landing-info-h2 {
-    font-size: 55px;
-  }
+  /* clamp() on .landing-info h2 and h2.landing-info-h2 handles fluid sizing; only layout overrides needed here */
 }
 
 @media screen and (min-width: 1025px) {
