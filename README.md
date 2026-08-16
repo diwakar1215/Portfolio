@@ -97,7 +97,7 @@ All personal content is centralized in one file:
 ## 🤝 Connect with Diwakar
 
 - 🔗 **Live Preview:** [Your Vercel URL Here]
-- 🔗 **LinkedIn:** [linkedin.com/in/diwakar-singh1217](https://www.linkedin.com/in/diwakar-singh1217/)
+- 🔗 **LinkedIn:** [linkedin.com/in/diwakarsingh07](https://www.linkedin.com/in/diwakarsingh07/)
 - 🐙 **GitHub:** [github.com/diwakar1215](https://github.com/diwakar1215)
 - 📧 **Email:** diwakar9345@gmail.com
 - 🌐 **Portfolio:** [Your Vercel URL Here]

@@ -85,7 +85,7 @@ export const config = {
     contact: {
         email: "diwakar9345@gmail.com",
         github: "https://github.com/diwakar1215",
-        linkedin: "https://www.linkedin.com/in/diwakar-singh1217/",
+        linkedin: "https://www.linkedin.com/in/diwakarsingh07/",
         twitter: "https://twitter.com",
         facebook: "https://facebook.com",
         instagram: "https://instagram.com"
