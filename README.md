@@ -2,7 +2,7 @@
 
 <div align="center">
 
-https://github.com/diwakar1215/Portfolio/raw/main/demo.mp4
+<video src="demo.mp4" controls autoplay loop muted width="100%"></video>
 
 **🔗 Live Preview: [diwakarsingh.netlify.app](https://diwakarsingh.netlify.app/)**
 
