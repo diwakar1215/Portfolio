@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { HashRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 const CharacterModel = lazy(() => import("./components/Character"));
