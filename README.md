@@ -1,12 +1,6 @@
 # 🚀 Diwakar Singh — 3D Developer Portfolio
 
-<div align="center">
-
-<video src="demo.mp4" controls autoplay loop muted width="100%"></video>
-
-**🔗 Live Preview: [diwakarsingh.netlify.app](https://diwakarsingh.netlify.app/)**
-
-</div>
+https://github.com/diwakar1215/Portfolio/raw/refs/heads/main/demo.mp4
 
 ---
 
