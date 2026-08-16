@@ -1,6 +1,6 @@
 # 🚀 Diwakar Singh — 3D Developer Portfolio
 
-https://github.com/diwakar1215/Portfolio/raw/refs/heads/main/demo.mp4
+![Diwakar Singh — 3D Portfolio Demo](./demo.gif)
 
 ---
 
