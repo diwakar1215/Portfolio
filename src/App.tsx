@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 const CharacterModel = lazy(() => import("./components/Character"));
@@ -10,7 +10,7 @@ import { LoadingProvider } from "./context/LoadingProvider";
 
 const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route
           path="/"
@@ -43,7 +43,7 @@ const App = () => {
           }
         />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
