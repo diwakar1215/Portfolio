@@ -89,34 +89,44 @@
     /* Hide 'An' if not needed, or keep it static */
   }
 
-  /* Force static positioning to prevent overlaps */
+  /* Force static positioning to prevent overlaps and break GSAP absolute positioning */
   .landing-info h2,
   h2.landing-info-h2,
   .landing-h2-1,
-  .landing-h2-info {
+  .landing-h2-info,
+  .landing-h2-1 div,
+  .landing-h2-info div {
     position: static !important;
-    display: block;
-    width: auto;
+    display: inline-block !important;
+    width: auto !important;
     margin: 0 !important;
-    font-size: 20px !important;
-    line-height: 1.5 !important;
-    white-space: normal;
+    white-space: normal !important;
     text-align: center;
     height: auto !important;
     transform: none !important;
-    /* Remove any transforms */
   }
 
   /* Specific styling for the distinct parts */
   .landing-h2-1 {
-    font-size: 24px !important;
+    font-size: 28px !important;
     color: var(--accentColor);
     font-weight: 700;
+    line-height: 1.2 !important;
+    display: block !important;
+    margin-bottom: 5px !important;
+  }
+  
+  .landing-h2-1 * {
+    font-size: 28px !important;
+    line-height: 1.2 !important;
   }
 
   .landing-h2-info {
-    font-size: 18px !important;
+    font-size: 16px !important;
     color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 1px;
+    font-weight: 400;
+    display: block !important;
   }
 
   .landing-info-h2::after {
@@ -128,23 +138,22 @@
     display: block;
     position: relative !important;
     width: 100%;
-    max-width: 380px;
+    max-width: 280px; /* Reduced from 380px to prevent overflow */
     margin: 0 auto;
     z-index: 1;
     order: 2;
-    /* Second: Photo */
-    /* Add fade mask to bottom */
-    -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
     pointer-events: none;
     transform: none !important;
+    margin-bottom: -20px; /* Pull text up a bit */
   }
 
   .mobile-photo img {
     width: 100%;
     height: auto;
     object-fit: contain;
-    filter: drop-shadow(0 0 40px rgba(194, 164, 255, 0.4));
+    filter: drop-shadow(0 0 30px rgba(194, 164, 255, 0.4));
   }
 }
 
